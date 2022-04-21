@@ -1,0 +1,13 @@
+section {
+    padding: 60px 0;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+#card-button {
+    width: 110px;
+}

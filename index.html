@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Mos Burger</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Mos Burger logo" height="30"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"> 
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mos Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mos Outlets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mos Park</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 1 -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center pt-5">
+                    <img id="frontpic" class="img-fluid px-5" src="img/1stpic.jpeg">
+                </div>
+                <div class="col-md-5 text-center text-md-start pt-5">
+                    <h1>
+                        <div class="display-2">Mos Burger</div>
+                        <div class="display-6 text-muted">making people happy through food</div>
+                    </h1>
+                    <a href="#mos-menu" class="btn btn-success my-3">View Menu</a>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="bg-dark text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+              <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+              <div class="input-group news-input">
+                  <input type="text" class="form-control" placeholder="Enter Email">
+                  <button class="btn text-light btn-success btn-lg" type="button">Submit</button>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="p-5">
+        <div class="container">
+          <div class="row text-center justify-content-center g-5">
+            <div class="col-lg-4 col-md-4">
+              <div class="card h-100 shadow">
+                  <img src="img/news.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">News</h5>
+                    <p class="card-text">Stay up to date with our latest burger offerings and promotions!</p>
+                    <a href="#" id="card-button" class="align-self-center mt-auto btn btn-success ">Read More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="card h-100 shadow">
+                  <img src="img/moscafe.png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Mos Cafe</h5>
+                    <p class="card-text">Our flagship cafe that caters to the lifestyle of our customers.</p>
+                    <a href="#" id="card-button" class="align-self-center mt-auto btn btn-success">Check Out</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="card h-100 shadow">
+                  <img src="img/jobvacancy.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Mos Employment</h5>
+                    <p class="card-text">Information on job opportunities. Start exploring your career at Mos today!</p>
+                    <a href="#" id="card-button" class="align-self-center mt-auto btn btn-success">Apply Here</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  
+    <!-- REVIEWS -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Reviews</h2>
+                <p class="lead">What people have said about our food...</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-md-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i>
+                            <h5 class="mb-1">A must try for every burger lover</h5>
+                            <p class="mb-1 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam odit molestias earum eveniet ex reiciendis quos praesentium a officiis!</p>
+                            <small>Review by Jared</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i>
+                            <h5 class="mb-1">A must try for every burger lover</h5>
+                            <p class="mb-1 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam odit molestias earum eveniet ex reiciendis quos praesentium a officiis!</p>
+                            <small>Review by Andrea</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i>
+                            <h5 class="mb-1">A must try for every burger lover</h5>
+                            <p class="mb-1 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam odit molestias earum eveniet ex reiciendis quos praesentium a officiis!</p>
+                            <small>Review by Benjamin</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-fill text-success"></i><i class="bi bi-star-half text-success"></i>
+                            <h5 class="mb-1">A must try for every burger lover</h5>
+                            <p class="mb-1 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quisquam odit molestias earum eveniet ex reiciendis quos praesentium a officiis!</p>
+                            <small>Review by Qin Wen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact us directly...</p>
+            </div>
+            <div class="row justify-content-center mb-4 mt-5">
+                <div class="col-md-8">
+                    <form>
+                        <label for="email" class="form-label">Email Address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. jared@example.com">
+                        </div>
+                       
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g. Jared Ng">
+                        </div>
+                        
+
+                        <label for="subject" class="form-label">What is your question about?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-text-fill"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                                <option value="food">Food Query</option>
+                                <option value="pricing">Pricing Query</option>
+                                <option value="career">Career Query</option>
+                                <option value="other">Other Query</option>
+                              </select>
+                        </div>
+                       
+
+                        <div class="form-floating my-4">
+                          <textarea id="query" class="form-control" style="height: 140px"></textarea>
+                          <label for="query">Your query...</label>
+                        </div>
+                        
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- FOOTER -->
+    <footer class="p-2 bg-dark text-light text-center position-relative">
+        <div class="container justify-content-center align-items-center">
+            <p class="lead mb-auto">Copyright &copy; 2022 Mos Burger</p>
+            <ul class="list-unstyled footer-link d-flex justify-content-center mb-auto">
+              <h3><li><a href="https://www.facebook.com/mosburgersg/" target="blank"><i class="bi bi-facebook px-2 text-light"></i></a></li></h3>
+              <h3><li><a href="https://www.instagram.com/mosburgersg/" target="blank"><i class="bi bi-instagram text-light"></i></a></li></h3>
+            </ul>
+            <a href="" class="position-absolute bottom-0 end-0 p-4">
+                <i class="bi bi-arrow-up-circle h1 text-success"></i>
+            </a>
+        </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
